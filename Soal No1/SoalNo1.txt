@@ -1,0 +1,4 @@
+1. 
+A.SELECT * FROM table_customer INNER JOIN table_transaksi ON table_customer.id_customer = table_transaksi.id_customer INNER JOIN table_transaksi_detail ON table_transaksi.id_transaksi = table_transaksi_detail.id_transaksi
+B.SELECT * FROM table_transaksi INNER JOIN table_transaksi_detail ON table_transaksi.id_transaksi = table_transaksi_detail.id_transaksi 
+INNER JOIN table_barang ON table_transaksi_detail.id_barang = table_barang.id_barang
